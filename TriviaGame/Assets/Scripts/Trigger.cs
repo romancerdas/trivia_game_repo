@@ -4,6 +4,10 @@ using UnityEngine.Events;
 
 public class Trigger : MonoBehaviour
 {
+    public GameObject prefab;
+// public GameManager managment;
+    public GameObject location;
+    private Vector3 new_location;
     [SerializeField] string tagFilter;
 
     [SerializeField] UnityEvent onTriggerEnter;
@@ -15,6 +19,9 @@ public class Trigger : MonoBehaviour
         if (!string.IsNullOrEmpty(tagFilter) && other.gameObject.CompareTag(tagFilter)) return;
         onTriggerEnter.Invoke();
         Debug.Log("Enter");
+        new_location = location.transform.position + new Vector3(0, 0, 25);
+        GameObject platform = Instantiate(prefab, new_location, Quaternion.identity);
+        
     }
 
     void OnTriggerExit(Collider other)
@@ -22,5 +29,6 @@ public class Trigger : MonoBehaviour
         if (!string.IsNullOrEmpty(tagFilter) && other.gameObject.CompareTag(tagFilter)) return;
         onTriggerExit.Invoke();
         Debug.Log("Exit");
+        Destroy(prefab);
     }
 }
