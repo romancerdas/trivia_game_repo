@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/Muske/Desktop/TriviaGame/Packages/manifest.json
+    m_FilePath: C:/Users/drago/OneDrive/Documents/GitHub/trivia_game_repo/TriviaGame/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638869979727819844
-    m_Hash: 205969706
+      ticks: 638869993730424935
+    m_Hash: 667505191
   m_LockFileStatus:
-    m_FilePath: C:/Users/Muske/Desktop/TriviaGame/Packages/packages-lock.json
+    m_FilePath: C:/Users/drago/OneDrive/Documents/GitHub/trivia_game_repo/TriviaGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638869979734329634
-    m_Hash: 3025046548
+      ticks: 638869993730438041
+    m_Hash: 2904195732
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/Muske/Desktop/TriviaGame/Packages
+m_ProjectPath: C:/Users/drago/OneDrive/Documents/GitHub/trivia_game_repo/TriviaGame/Packages
 m_EditorVersion: 6000.1.3f1 (f34db9734971)
 m_ResolvedPackages:
 - packageId: com.unity.multiplayer.center@1.0.0
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Muske\Desktop\TriviaGame\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: C:\Users\drago\OneDrive\Documents\GitHub\trivia_game_repo\TriviaGame\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
