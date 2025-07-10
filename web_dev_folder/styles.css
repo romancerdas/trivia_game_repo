@@ -51,12 +51,12 @@
   }
   
   /* Gradient Section */
-  .gradient-section {
+  .main-content {
     background: linear-gradient(to bottom, #ffffff, #e0f7fa);
-    display: flex;
-    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
   }
-  
+/*   
   .sidebar {
     flex: 1;
     margin-right: 2rem;
@@ -66,17 +66,21 @@
     max-width: 100%;
     border-radius: 8px;
   }
-  
-  .main-content {
-    flex: 2;
+   */
+  .card {
+    display:block;
+    grid-column: 1/4;
+    padding: 10px;
+    margin: 10px;
+
   }
   
   .highlight-box {
-    flex: 1;
     background: #f0f0f0;
-    padding: 1rem;
+    padding: 10px;
     margin-left: 2rem;
     border-radius: 8px;
+    max-height: 100%;
   }
   
   /* Footer */
