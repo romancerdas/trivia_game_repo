@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638876113627046180
-    m_Hash: 820019355
+      ticks: 638876726922961021
+    m_Hash: 2888094340
   m_LockFileStatus:
     m_FilePath: C:/Users/Muske/Desktop/trivia_game_repo/TriviaGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638876113627145871
-    m_Hash: 2419316610
+      ticks: 638876726922961021
+    m_Hash: 3472901308
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

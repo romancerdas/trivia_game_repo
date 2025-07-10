@@ -32,7 +32,7 @@ public class Movement : MonoBehaviour
     {
         shifting = true;
         Vector3 startPos = transform.position;
-        float projected_movement_z = 2 * shiftSpeed / speed;
+        float projected_movement_z = 4 * shiftSpeed / speed;
         Vector3 targetPos = new Vector3(lane * laneSize, startPos.y, startPos.z + projected_movement_z);
 
         while (Vector3.Distance(transform.position, targetPos) > 0.01f)
