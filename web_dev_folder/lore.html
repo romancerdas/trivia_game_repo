@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Shrooms Adventure</title>
+    <link rel="stylesheet" href="styles/lorestyle.css">
+</head>
+<body>
+    <!-- Header with logo and navigation -->
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/logo.png" alt="Trivia Shrooms Logo">
+        </a>
+        <nav> 
+            <a href="index.html">Home</a>
+            <a href="lore.html">About the Game</a>
+            <a href="developers.html">Meet the Devs</a>
+        </nav> 
+    </header>
+
+    <!-- Lore Section -->
+    <section>
+        <h2>LORE</h2>
+        <div>
+            <p id="lore_p_text">This is the mystical story of how the Shroom Realm came to be—a kingdom of knowledge and fungi. Embark on a journey to uncover its hidden secrets!</p>
+            <img class="lore_image" src="images/lore-placeholder.jpg" alt="Lore image">
+        </div>
+    </section>
+
+    <!-- Characters Section -->
+    <section id="characters_section">
+        <h2>CHARACTERS</h2>
+        <p id="characters_p_text">Meet the brave, quirky, and questionable heroes of the Trivia Shrooms universe!</p>
+
+        <div class="characters_main">
+            <div id="character_1">
+                <img class="characters_image" src="images/placeholder.jpg" alt="Character 1">
+                <p>The trivia champ with a mushroom mohawk and laser focus.</p>
+            </div>
+            <div id="character_2">
+                <img class="characters_image" src="images/placeholder.jpg" alt="Character 2">
+                <p>A mushroom wizard who forgets spells but remembers facts.</p>
+            </div>
+            <div id="character_3">
+                <img class="characters_image" src="images/placeholder.jpg" alt="Character 3">
+                <p>This sneaky spore thief knows all the trivia answers… or steals them.</p>
+            </div>
+        </div>
+
+        <div>
+            <button id="characters_button">Read More</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>TRIVIA SHROOMS ADVENTURE &copy; 2025 - Pingu Penguins</p>
+        <img class="logo" src="images/logo.png" alt="Company Logo"> 
+        <p><a href="site-plan.html">Site Plan</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="Facebook icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="Twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="Instagram icon">
+            </a>
+        </div>
+    </footer>
+
+    <!-- JavaScript for buttons -->
+    <script>
+        document.getElementById("download_button").addEventListener("click", function() {
+            window.location.href = "download.html";
+        });
+
+        document.getElementById("lore_button").addEventListener("click", function() {
+            window.location.href = "lore.html";
+        });
+
+        document.getElementById("characters_button").addEventListener("click", function() {
+            window.location.href = "characters.html";
+        });
+    </script>
+</body>
+</html>

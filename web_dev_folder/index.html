@@ -1,12 +1,115 @@
+
+<!-- Basic website code don't worry about this-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <title>Trivia Homepage</title>
+    <title>Document</title>
 </head>
 <body>
-    
+    <!-- The small logo for the game is to be added here, it isn't necissary but is filler for right now, 
+     navigaton bar is also here-->
+    <header>
+        <a id="logo_link" href ="index.html">
+            <img class="logo" src =>
+            <nav> 
+                <a href="index.html">Home</a>
+                <a href="lore.html">Lore</a>
+                <a href="characters.html">Characters</a>
+                <a href="download.html">Download</a>
+                <a href="developers.html">Meet the Devs</a>
+            </nav> 
+        </a>
+    </header>
+<!--The top of the page below header, will have a very large image that either already contains the title or will have 
+the h1 title text appear on top of it and then styled. The button should also be styled ontop of the image, 
+below the title of the game.
+-->
+    <div id="hero_text">
+        <h1>TRIVIA SHROOMS ADVENTURE</h1>
+        <button id="download_button">Play Now</button>
+        <script>
+            document.getElementById("download_button").addEventListener("click", function() {
+                window.location.href = "download.html";
+            });
+        </script>
+    </div>
+    <div id ="hero">
+        <div id="hero_box">
+            <img class="hero_image" src="images/">
+        </div>
+    </div>
+    <!-- a button linking to the lore html with <script> (yet to be made) Filler text, filler image, H2 Header use for CSS -->
+    <section>
+        <h2>LORE</h2>
+        <section>
+            <button id="lore_button">Read More</button>
+            <p id="lore_p_text">_filler_text__filler_text__filler_text__filler_text__filler_text__filler_text_</p>
+            <img class="lore_image" src="images/">
+            <script>
+                document.getElementById("lore_button").addEventListener("click", function() {
+                    window.location.href = "lore.html";
+                });
+            </script>
+        </section>
+
+    </section> 
+    <!--On the wireframe multiple characters were present, slots for character images and explaining text, along with a button linking to character html-->  
+    </section class="characters_main">
+        <h2>CHARACTERS</h2>
+        <p id="characters_p_text">_filler_text__filler_text__filler_text__filler_text__filler_text__filler_text_</p>
+        <div id="character_1">
+            <img class="characters_image" src="images/">
+            <p>_filler_text__filler_text__filler_text__filler_text__filler_text__filler_text_</p>
+        </div>
+        <div id="character_2">
+            <img class="characters_image" src="images/">
+            <p>_filler_text__filler_text__filler_text__filler_text__filler_text__filler_text_</p>
+        </div>
+        <div id="character_3">
+            <img class="characters_image" src="images/">
+            <p>_filler_text__filler_text__filler_text__filler_text__filler_text__filler_text_</p>
+        </div>
+        <section>
+            <button id="characters_button">Read More</button>
+            <script>
+                document.getElementById("characters_button").addEventListener("click", function() {
+                    window.location.href = "lore.html";
+                });
+            </script>
+        </section>
+        <!--We may need an image for all of the devs and artists-->
+        <section>
+            <h2>MEET THE DEVS</h2>
+            <section>
+                <button id="dev_button">Our Story</button>
+                <img class="devs_image" src="images">
+                <p id="lore_p_text">_filler_text__filler_text__filler_text__filler_text__filler_text__filler_text_</p>
+                <script>
+                    document.getElementById("dev_button").addEventListener("click", function() {
+                        window.location.href = "developers.html";
+                    });
+                </script>
+            </section>
+    </section>
+    <footer>
+    <!-- Footer has a small logo alongside the company copyright and with our socials attached(yet to be added)-->
+        <p>TRIVIA SHROOMS ADVENTURE &copy; 2025 - Pingu Penguins</p>
+        <img class="logo" > 
+        <p><a href="site-plan.html">Site Plan</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+
+    </footer>
 </body>
 </html>
