@@ -13,6 +13,51 @@ public class Trigger : MonoBehaviour
     [SerializeField] UnityEvent onTriggerEnter;
 
     [SerializeField] UnityEvent onTriggerExit;
+    public bool isCorrect;
+    void Awake()
+    {
+        Renderer cubeRenderer = GetComponent<Renderer>();
+        
+        if (gameObject.CompareTag("Left"))
+        {
+            if (managment.left)
+            {
+                isCorrect = true;
+                cubeRenderer.material.color = Color.green;
+            }
+            else
+            {
+                isCorrect= false;
+                cubeRenderer.material.color = Color.red;
+            }
+        }
+        if (gameObject.CompareTag("Right"))
+        {
+            if (managment.right)
+            {
+                isCorrect = true;
+                cubeRenderer.material.color = Color.green;
+            }
+            else
+            {
+                isCorrect = false;
+                cubeRenderer.material.color = Color.red;
+            }
+        }
+        if (gameObject.CompareTag("Center"))
+        {
+            if (managment.center)
+            {
+                isCorrect = true;
+                cubeRenderer.material.color = Color.green;
+            }
+            else
+            {
+                isCorrect = false;
+                cubeRenderer.material.color = Color.red;
+            }
+        }
+    }
 
     void OnTriggerEnter(Collider other)
     {
@@ -21,7 +66,14 @@ public class Trigger : MonoBehaviour
         Debug.Log("Enter");
         new_location = location.transform.position + new Vector3(0, 0, 25);
         GameObject platform = Instantiate(prefab, new_location, Quaternion.identity);
-        managment.score += 100;
+        if (isCorrect)
+        {
+            managment.score += 100;
+        }
+        if (!isCorrect)
+        {
+            managment.score -= 100;
+        }
     }
 
     void OnTriggerExit(Collider other)
