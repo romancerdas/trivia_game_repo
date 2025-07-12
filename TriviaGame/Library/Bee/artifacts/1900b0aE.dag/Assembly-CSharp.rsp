@@ -381,6 +381,7 @@
 "Assets/Scripts/Menu_Control.cs"
 "Assets/Scripts/Movement.cs"
 "Assets/Scripts/questionSelect.cs"
+"Assets/Scripts/RandomGrass.cs"
 "Assets/Scripts/Trigger.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0

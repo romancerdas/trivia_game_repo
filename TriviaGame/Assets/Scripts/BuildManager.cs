@@ -8,6 +8,8 @@ public class BuildManager : MonoBehaviour
     public bool left = false;
     public bool right = false;
     public bool center = false;
+    public GameObject canvas_menu;
+    public GameObject canvas_main;
     void Awake()
     {
         score_text.text = "Score: 000 ";
@@ -44,5 +46,14 @@ public class BuildManager : MonoBehaviour
     {
         score_text.text = "Score: " + score;
     }
-
+    public void Menu()
+    {
+        canvas_menu.SetActive(true);
+        canvas_main.SetActive(false);
+    }
+    public void Close_Menu()
+    {
+        canvas_menu.SetActive(false);
+        canvas_main.SetActive(true);
+    }
 }
