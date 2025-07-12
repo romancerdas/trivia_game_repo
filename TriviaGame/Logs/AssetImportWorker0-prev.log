@@ -4,12 +4,16 @@ OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 16188 
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Date: 2025-07-11T21:02:48Z
 =======
 Date: 2025-07-10T19:59:08Z
 >>>>>>> Stashed changes
 =======
 Date: 2025-07-10T19:59:08Z
+>>>>>>> Stashed changes
+=======
+Date: 2025-07-12T18:04:15Z
 >>>>>>> Stashed changes
 
 COMMAND LINE ARGUMENTS:
@@ -26,12 +30,16 @@ Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 61729
 =======
 57871
 >>>>>>> Stashed changes
 =======
 57871
+>>>>>>> Stashed changes
+=======
+53186
 >>>>>>> Stashed changes
 -job-worker-count
 1
@@ -80,6 +88,7 @@ C:/Users/Muske/Desktop/trivia_game_repo/TriviaGame
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Player connection [5316]  Target information:
 
 Player connection [5316]  * "[IP] 10.50.72.171 [Port] 0 [Flags] 2 [Guid] 882927301 [EditorId] 882927301 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-AL2T6NM6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
@@ -101,6 +110,14 @@ Player connection [22948]  * "[IP] 10.244.6.252 [Port] 0 [Flags] 2 [Guid] 404533
 
 Player connection [22948] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [22948] Host joined alternative multi-casting on [225.0.0.222:34997]...
+>>>>>>> Stashed changes
+=======
+Player connection [10088]  Target information:
+
+Player connection [10088]  * "[IP] 10.244.6.252 [Port] 0 [Flags] 2 [Guid] 4084416035 [EditorId] 4084416035 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-AL2T6NM6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10088] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10088] Host joined alternative multi-casting on [225.0.0.222:34997]...
 >>>>>>> Stashed changes
 JobSystem: Creating JobQueue using job-worker-count value 1
 Input System module state changed to: Initialized.
@@ -132,6 +149,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
@@ -171,10 +189,24 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling: 22105ms
 	BeginReloadAssembly (2557ms)
 >>>>>>> Stashed changes
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007375 seconds.
+- Loaded All Assemblies, in 82.187 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 29.884 seconds
+Domain Reload Profiling: 112036ms
+	BeginReloadAssembly (38182ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		CreateAndSetChildDomain (1ms)
@@ -245,14 +277,39 @@ Domain Reload Profiling: 22105ms
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (20203ms)
+	RebuildNativeTypeToScriptingClass (12221ms)
+	initialDomainReloadingComplete (1394ms)
+	LoadAllAssembliesAndSetupDomain (10149ms)
+		LoadAssemblies (38180ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10107ms)
+			TypeCache.Refresh (10088ms)
+				TypeCache.ScanAssembly (9832ms)
+			BuildScriptInfoCaches (3ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (29887ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (29366ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1125ms)
+			SetLoadedEditorAssemblies (47ms)
+			BeforeProcessingInitializeOnLoad (1072ms)
+			ProcessInitializeOnLoadAttributes (23397ms)
+			ProcessInitializeOnLoadMethodAttributes (3724ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 - Loaded All Assemblies, in  0.543 seconds
@@ -520,10 +577,20 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  2.451 seconds
 Domain Reload Profiling: 2985ms
 	BeginReloadAssembly (354ms)
+=======
+- Loaded All Assemblies, in  1.433 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.563 seconds
+Domain Reload Profiling: 2988ms
+	BeginReloadAssembly (1027ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (30ms)
+		DisableScriptedObjects (23ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 		CreateAndSetChildDomain (50ms)
 	RebuildCommonClasses (74ms)
 	RebuildNativeTypeToScriptingClass (21ms)
@@ -5693,9 +5760,45 @@ Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 411 unused Assets / (15.5 KB). Loaded Objects now: 944.
 Memory consumption went from 64.7 MB to 64.7 MB.
 Total: 3.689700 ms (FindLiveObjects: 0.093700 ms CreateObjectMapping: 0.030000 ms MarkObjects: 3.449000 ms  DeleteObjects: 0.115700 ms)
+=======
+		CreateAndSetChildDomain (140ms)
+	RebuildCommonClasses (156ms)
+	RebuildNativeTypeToScriptingClass (48ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (544ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (86ms)
+			TypeCache.Refresh (55ms)
+				TypeCache.ScanAssembly (37ms)
+			BuildScriptInfoCaches (16ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1565ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1114ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (18ms)
+			BeforeProcessingInitializeOnLoad (369ms)
+			ProcessInitializeOnLoadAttributes (561ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 413 unused Assets / (89.1 KB). Loaded Objects now: 932.
+Memory consumption went from 61.9 MB to 61.9 MB.
+Total: 14.048900 ms (FindLiveObjects: 0.139800 ms CreateObjectMapping: 0.080600 ms MarkObjects: 13.510000 ms  DeleteObjects: 0.316700 ms)
+>>>>>>> Stashed changes
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
+<<<<<<< Updated upstream
 Received Prepare
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  0.395 seconds
@@ -6021,9 +6124,18 @@ Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 411 unused Assets / (15.5 KB). Loaded Objects now: 944.
 Memory consumption went from 65.5 MB to 65.5 MB.
 Total: 106.549100 ms (FindLiveObjects: 0.143300 ms CreateObjectMapping: 0.665000 ms MarkObjects: 105.381100 ms  DeleteObjects: 0.358100 ms)
+=======
+Received Import Request.
+  Time since last request: 30934.639901 seconds.
+  path: Assets/Scripts/Trigger.cs
+  artifactKey: Guid(d92d2ca8145fb20459b48d4e84d5d63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Trigger.cs using Guid(d92d2ca8145fb20459b48d4e84d5d63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b0942062734fa90bc26024b6829baa1') in 0.0264714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+>>>>>>> Stashed changes
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
+<<<<<<< Updated upstream
 Received Prepare
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  0.388 seconds
@@ -6434,6 +6546,14 @@ Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 410 unused Assets / (22.3 KB). Loaded Objects now: 932.
 Memory consumption went from 60.1 MB to 60.0 MB.
 Total: 11.026700 ms (FindLiveObjects: 0.304900 ms CreateObjectMapping: 0.228200 ms MarkObjects: 9.934700 ms  DeleteObjects: 0.554000 ms)
+>>>>>>> Stashed changes
+=======
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scripts/BuildManager.cs
+  artifactKey: Guid(045676a048492fb4d88363a177a141a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BuildManager.cs using Guid(045676a048492fb4d88363a177a141a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05ca01515a460ff734d851c2015b5c71') in 0.001734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 >>>>>>> Stashed changes
 
 Prepare: number of updated asset objects reloaded= 0
