@@ -11,7 +11,7 @@ public class BuildManager : MonoBehaviour
     void Awake()
     {
         score_text.text = "Score: 000 ";
-        
+        RandomAnswer();
     }
     
     void Update()
