@@ -380,8 +380,10 @@
 "Assets/Scripts/BuildManager.cs"
 "Assets/Scripts/Menu_Control.cs"
 "Assets/Scripts/Movement.cs"
+"Assets/Scripts/QuestionManager.cs"
 "Assets/Scripts/questionSelect.cs"
 "Assets/Scripts/RandomGrass.cs"
+"Assets/Scripts/TopBarController.cs"
 "Assets/Scripts/Trigger.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
