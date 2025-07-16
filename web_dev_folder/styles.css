@@ -183,24 +183,45 @@ footer .social a img {
 
 /* roman shit */
 
-.main-content{
+.main-content {
   display: grid;
+  gap: 6rem;
 }
 
-.main-content img{
+.main-content img {
   max-width: 100px;
 }
 
-.main-content .card{
+.main-content .card,
+.main-content .reverse-card {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1rem;
 }
 
-.card img{
+.main-content .card .card-img,
+.main-content .reverse-card .card-img {
+  margin: 0 auto;
+  justify-self: center;
+}
+
+.main-content .card .card-img {
   grid-column: 1/2;
 }
-.card .text-container{
+
+.main-content .card .text-container {
   grid-column: 2/3;
+  text-align: justify,center;
+}
+
+.main-content .reverse-card .card-img {
+  grid-column: 2/3;
+}
+
+.main-content .reverse-card .text-container {
+  grid-column: 1/2;
+  text-align: justify,center;
 }
 
 
